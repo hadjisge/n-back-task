@@ -205,7 +205,7 @@ for i in range(len(b_df1)):
             out.loc[i,'condition'] = pain
     trialClock.reset()
 
-    thisStim = visual.ImageStim(win, image='/Users/moayedilab/Documents/PSY1210/Assignment1/Images/' + letters, pos=(0, 0))
+    thisStim = visual.ImageStim(win, image='/Users/moayedilab/Documents/GitHub/Project-1/Images/' + letters, pos=(0, 0))
 
     thisStim.draw()
 
